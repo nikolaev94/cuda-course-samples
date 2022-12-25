@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cuda-course-samples", "cuda-course-samples.vcxproj", "{C1FCA913-4723-4385-B99C-D5CFEAE841C3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cuda-axpy", "cuda-axpy\cuda-axpy.vcxproj", "{A8E1DB82-DA4C-4B7E-85B8-331E895EDE29}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cuda-gemm-shared", "cuda-gemm-shared\cuda-gemm-shared.vcxproj", "{223C8B1A-0DAF-4F2B-A0A5-C8CCA3C8BCC5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cuda-intro", "cuda-intro\cuda-intro.vcxproj", "{B432F805-CB89-4CEC-9196-B7C9E27A52CB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cuda-libraries", "cuda-libraries\cuda-libraries.vcxproj", "{C1BDD320-22AF-4AB7-B063-32291FCEC523}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cuda-matrix-multiply", "cuda-matrix-multiply\cuda-matrix-multiply.vcxproj", "{5BB6EA5A-33E0-4AB0-8998-610A73B7094B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C1FCA913-4723-4385-B99C-D5CFEAE841C3}.Debug|x64.ActiveCfg = Debug|x64
-		{C1FCA913-4723-4385-B99C-D5CFEAE841C3}.Debug|x64.Build.0 = Debug|x64
-		{C1FCA913-4723-4385-B99C-D5CFEAE841C3}.Release|x64.ActiveCfg = Release|x64
-		{C1FCA913-4723-4385-B99C-D5CFEAE841C3}.Release|x64.Build.0 = Release|x64
+		{A8E1DB82-DA4C-4B7E-85B8-331E895EDE29}.Debug|x64.ActiveCfg = Debug|x64
+		{A8E1DB82-DA4C-4B7E-85B8-331E895EDE29}.Debug|x64.Build.0 = Debug|x64
+		{A8E1DB82-DA4C-4B7E-85B8-331E895EDE29}.Release|x64.ActiveCfg = Release|x64
+		{A8E1DB82-DA4C-4B7E-85B8-331E895EDE29}.Release|x64.Build.0 = Release|x64
+		{223C8B1A-0DAF-4F2B-A0A5-C8CCA3C8BCC5}.Debug|x64.ActiveCfg = Debug|x64
+		{223C8B1A-0DAF-4F2B-A0A5-C8CCA3C8BCC5}.Debug|x64.Build.0 = Debug|x64
+		{223C8B1A-0DAF-4F2B-A0A5-C8CCA3C8BCC5}.Release|x64.ActiveCfg = Release|x64
+		{223C8B1A-0DAF-4F2B-A0A5-C8CCA3C8BCC5}.Release|x64.Build.0 = Release|x64
+		{B432F805-CB89-4CEC-9196-B7C9E27A52CB}.Debug|x64.ActiveCfg = Debug|x64
+		{B432F805-CB89-4CEC-9196-B7C9E27A52CB}.Debug|x64.Build.0 = Debug|x64
+		{B432F805-CB89-4CEC-9196-B7C9E27A52CB}.Release|x64.ActiveCfg = Release|x64
+		{B432F805-CB89-4CEC-9196-B7C9E27A52CB}.Release|x64.Build.0 = Release|x64
+		{C1BDD320-22AF-4AB7-B063-32291FCEC523}.Debug|x64.ActiveCfg = Debug|x64
+		{C1BDD320-22AF-4AB7-B063-32291FCEC523}.Debug|x64.Build.0 = Debug|x64
+		{C1BDD320-22AF-4AB7-B063-32291FCEC523}.Release|x64.ActiveCfg = Release|x64
+		{C1BDD320-22AF-4AB7-B063-32291FCEC523}.Release|x64.Build.0 = Release|x64
+		{5BB6EA5A-33E0-4AB0-8998-610A73B7094B}.Debug|x64.ActiveCfg = Debug|x64
+		{5BB6EA5A-33E0-4AB0-8998-610A73B7094B}.Debug|x64.Build.0 = Debug|x64
+		{5BB6EA5A-33E0-4AB0-8998-610A73B7094B}.Release|x64.ActiveCfg = Release|x64
+		{5BB6EA5A-33E0-4AB0-8998-610A73B7094B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
